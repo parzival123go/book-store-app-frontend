@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@reference "./index.css";
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .swiper-button-prev {
+    display: none !important;
+ }
+/* Make the button container a perfect circle and slightly larger */
+.swiper-button-next {
+    @apply bg-white rounded-full z-50 shadow-md;
+    width: 50px !important; /* Fixed width for the circle */
+    height: 50px !important; /* Fixed height for the circle */
+}
+
+/* Make the arrow icon itself bigger */
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+    font-size: 15px !important; /* Increased from 16px to 20px or 24px */
+    font-weight: bold;
+    color: var(--color-secondary); /* Use your theme color from config */
+}
+
+/* If you want the arrow centered in the new larger button */
+.swiper-button-next {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+ .btn-primary {
+    @apply bg-primary  px-12 py-2 rounded-md text-base font-secondary font-bold hover:bg-secondary hover:text-white transition-all duration-200 cursor-pointer
+ }
+
+.html{
+   scroll-behavior: smooth;
+}
