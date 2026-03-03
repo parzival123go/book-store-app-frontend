@@ -17,7 +17,6 @@ This is a production-style **MERN stack bookstore platform** featuring:
 
 * User authentication (JWT-based)
 * Shopping cart functionality
-* Cash-on-delivery checkout system
 * Order creation and management
 * Admin dashboard with protected routes
 * Full inventory management system
@@ -57,8 +56,7 @@ The application demonstrates real-world full-stack architecture with a clean sep
 * Browse books
 * Add/remove items from cart
 * Clear cart functionality
-* Checkout system (Cash on Delivery)
-* Place and track orders
+* Checkout system 
 
 ### 🛠️ Admin Features
 
@@ -88,7 +86,13 @@ The application demonstrates real-world full-stack architecture with a clean sep
 ---
 
 ## 📸 Project Screenshots
-
+<img width="1727" height="895" alt="image" src="https://github.com/user-attachments/assets/7464097d-8099-40cb-bdc4-0c905d343863" />
+<img width="1587" height="883" alt="image" src="https://github.com/user-attachments/assets/d44a1412-541f-4209-823d-04a980e8fbf1" />
+<img width="1582" height="633" alt="image" src="https://github.com/user-attachments/assets/230b4367-216c-48d7-a1eb-ca723763b358" />
+<img width="1128" height="746" alt="image" src="https://github.com/user-attachments/assets/6141f678-4372-4be4-b1fd-3c76a5517931" />
+<img width="1880" height="867" alt="image" src="https://github.com/user-attachments/assets/81ad86a4-6c99-45cf-8970-9450824ce0ad" />
+<img width="1860" height="806" alt="image" src="https://github.com/user-attachments/assets/d26d212b-9332-40a5-853a-a8dd875d8fdc" />
+<img width="1882" height="818" alt="image" src="https://github.com/user-attachments/assets/a526e3f5-d3d1-41c2-ad30-62bdda691b24" />
 
 ---
 
